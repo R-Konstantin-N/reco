@@ -1,0 +1,315 @@
+html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background-image: url("../images/background/background.jpg");
+    background-size: 100% auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.block {
+    display: block;
+    position: relative;
+    width: auto;
+    height: 962px;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: auto;
+    height: 213px;
+    top: 97px;
+}
+
+.logo img {
+    width: 358px;
+    height: 213px;
+}
+
+.number_upper {
+    font-size: 35px;
+    font-family: "Montserrat-SemiBold";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 170px;
+    top: 74px;
+
+}
+
+.menu_box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 130px;
+    width: auto;
+    height: 36px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1510px;
+    height: auto;
+}
+
+.menu p {
+    display: inline;
+    margin: 0 10px;
+    font-size: 35px;
+    font-family: "Montserrat-Medium";
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(223, 184, 114);
+    border-radius: 50px;
+}
+
+.button p {
+    font-size: 27px;
+    font-family: "Montserrat-Medium";
+    color: rgb(255, 255, 255);
+}
+
+.block-text-1 {
+    display: block;
+    position: absolute;
+    left: 204px;
+    bottom: 134px;
+}
+
+.trajan-1 {
+    font-size: 82px;
+    font-family: "Trajan-Pro-3-Regular";
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.trajan-1-gold {
+    font-size: 82px;
+    font-family: "Trajan-Pro-3-Regular";
+    color: rgb(259, 190, 116);
+    margin-bottom: 15px;
+}
+
+.montserrat-1 {
+    font-size: 54px;
+    font-family: "Montserrat-Medium";
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.montserrat-2 {
+    font-size: 27px;
+    font-family: "Montserrat-Medium";
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.picture-1 {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.picture-1 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 743px;
+}
+
+.block-text-2 {
+    display: block;
+    position: absolute;
+    right: 100px;
+    bottom: 434px;
+}
+
+.picture-2 {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+}
+
+.picture-2 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 700px;
+}
+
+.button-position-2 {
+    display: block;
+    position: absolute;
+    right: 570px;
+    bottom: 260px;
+}
+
+.block-text-3 {
+    display: block;
+    position: absolute;
+    left: 204px;
+    bottom: 400px;
+}
+
+.picture-3 {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+}
+
+.picture-3 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 900px;
+}
+
+.button-position-3 {
+    display: block;
+    position: absolute;
+    left: 204px;
+    bottom: 220px;
+}
+
+.block-text-4 {
+    display: block;
+    position: absolute;
+    right: 220px;
+    bottom: 500px;
+}
+
+.picture-4 {
+    display: block;
+    position: absolute;
+    left: 100px;
+    bottom: 190px;
+}
+
+.picture-4 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 600px;
+}
+
+.button-position-4 {
+    display: block;
+    position: absolute;
+    right: 570px;
+    bottom: 320px;
+}
+
+
+
+.emblem {
+    display: flex;
+    position: relative;
+    width: auto;
+    top: 100px;
+    left: 10px;
+}
+
+.emblem img {
+    width: 408px;
+    height: 415px;
+}
+
+.block-text-5 {
+    display: block;
+    position: absolute;
+    max-width: 1020px;
+    height: 410px;
+    top: 100px;
+    left: 480px;
+}
+
+.reco {
+    display: flex;
+    position: relative;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.reco img {
+    width: 226px;
+}
+
+
+.text_box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 150px;
+    width: auto;
+    height: 30px;
+}
+
+.text_box p {
+    font-size: 43px;
+    font-family: "Trajan-Pro-3-Regular";
+    color: rgb(255, 255, 255);
+}
+
+.zakazciki_box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 50px;
+    width: auto;
+    height: 100px;
+}
+
+.zakazciki_box img {
+    width: auto;
+    height: auto;
+    margin: 0 20px;
+}
+
+.footer_box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 70px;
+    width: auto;
+    height: 100px;
+}
+
+.footer_box p {
+    display: inline-block;
+    font-size: 25px;
+    font-family: "Montserrat-SemiBold";
+    color: rgb(255, 255, 255);
+    margin: 0 30px;
+}
+
+@media only screen and (max-width: 576px) {}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 1039px) {}
+
+@media only screen and (min-width: 1040px) and (max-width: 1280px) {}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {}
+
+@media only screen and (min-width: 1441px) {}
