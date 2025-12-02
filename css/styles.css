@@ -1,0 +1,864 @@
+html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background-image: url("../images/background/background.jpg");
+    background-size: 100% auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-bar {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #232e34;
+    z-index: 100;
+}
+
+.logo-bar img {
+    display: n;
+    position: relative;
+    height: 70px;
+
+}
+
+.reco-bar {
+    display: block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+#burger-button {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 120;
+}
+
+#menu-2 {
+    display: none;
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    height: auto;
+    z-index: 120;
+    transform: translateX(-95%);
+    transition: transform 0.4s ease;
+}
+
+.menu-2-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    background-color: #232e34;
+    border-top: 1px solid grey;
+}
+
+.menu-item p {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    font-family: "Montserrat-Medium";
+    color: rgb(255, 255, 255);
+}
+
+.reco-bar img {
+    display: block;
+    position: relative;
+    height: 30px;
+
+}
+
+#burger-bar {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+#burger-bar img {
+    display: block;
+    position: relative;
+    height: 70px;
+}
+
+#close-burger-bar {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+#close-burger-bar img {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 70px;
+    z-index: 110;
+}
+
+.block {
+    display: block;
+    position: relative;
+    width: auto;
+    height: 962px;
+}
+
+
+
+.logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: auto;
+    height: 250px;
+    top: 97px;
+}
+
+.logo img {
+    width: auto;
+    height: auto;
+
+}
+
+.number-block {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: auto;
+    height: 0px;
+    top: 0;
+}
+
+.number_upper {
+    display: block;
+    width: 285px;
+    font-size: 35px;
+    font-family: "Montserrat-SemiBold";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 170px;
+    top: 74px;
+}
+
+.menu_box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 130px;
+    width: auto;
+    height: 45px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1510px;
+    height: auto;
+    text-align: center;
+}
+
+.menu p {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 23px;
+    font-family: "Montserrat-Medium";
+    color: rgb(255, 255, 255);
+}
+
+.menu p:hover {
+    text-shadow: 0px 0px 10px #ffffff;
+}
+
+
+.block-text-1 {
+    display: block;
+    position: absolute;
+    left: 204px;
+    bottom: 134px;
+}
+
+.trajan-1 {
+    font-size: 75px;
+    font-family: "Trajan-Pro-3-Regular";
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.trajan-1-gold {
+    font-size: 82px;
+    font-family: "Trajan-Pro-3-Regular";
+    color: rgb(259, 190, 116);
+    margin-bottom: 15px;
+}
+
+.montserrat-1 {
+    font-size: 49px;
+    font-family: "Montserrat-Medium";
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.montserrat-2 {
+    font-size: 27px;
+    font-family: "Montserrat-Medium";
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.picture-1 {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.picture-1 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 743px;
+}
+
+.block-text-2 {
+    display: block;
+    position: absolute;
+    right: 100px;
+    bottom: 434px;
+}
+
+.picture-2 {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+}
+
+.picture-2 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 700px;
+}
+
+.block-text-3 {
+    display: block;
+    position: absolute;
+    left: 204px;
+    bottom: 400px;
+}
+
+.picture-3 {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+}
+
+.picture-3 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 900px;
+}
+
+
+.block-text-3-1 {
+    display: block;
+    position: absolute;
+    left: 204px;
+    bottom: 400px;
+}
+
+.picture-3-1 {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 250px;
+}
+
+.picture-3-1 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 600px;
+}
+
+.block-text-4 {
+    display: block;
+    position: absolute;
+    right: 220px;
+    bottom: 300px;
+}
+
+.picture-4 {
+    display: block;
+    position: absolute;
+    left: 100px;
+    bottom: 190px;
+}
+
+.picture-4 img {
+    display: block;
+    right: 0px;
+    width: auto;
+    height: 600px;
+}
+
+.emblem {
+    display: flex;
+    position: relative;
+    width: 408px;
+    top: 100px;
+    left: 10px;
+}
+
+.emblem img {
+    width: 408px;
+    height: 415px;
+}
+
+.block-text-5 {
+    display: block;
+    position: absolute;
+    max-width: 1020px;
+    height: 410px;
+    top: 100px;
+    left: 480px;
+}
+
+.reco {
+    display: flex;
+    position: relative;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.reco img {
+    width: 280px;
+}
+
+
+.text_box {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 150px;
+    width: auto;
+    height: 30px;
+}
+
+.text_box p {
+    font-size: 43px;
+    font-family: "Trajan-Pro-3-Regular";
+    color: rgb(255, 255, 255);
+}
+
+.zakazciki_box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 140px;
+border: 1px solid red;
+}
+
+.zakazciki_box img {
+    display: inline;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.footer_box {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    margin-top: 70px;
+    width: auto;
+    height: 100px;
+}
+
+.footer_box p {
+    display: inline-block;
+    font-size: 25px;
+    font-family: "Montserrat-SemiBold";
+    color: rgb(255, 255, 255);
+    margin: 10px 30px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .adaptiv-height-01 {
+        height: 650px;
+    }
+
+    .adaptiv-height-02 {
+        height: 400px;
+    }
+
+    .adaptiv-height-03 {
+        height: 400px;
+    }
+
+    .adaptiv-height-03-1 {
+        height: 400px;
+    }
+
+    .adaptiv-height-04 {
+        height: 400px;
+    }
+
+    .adaptiv-height-05 {
+        height: 1000px;
+    }
+
+    .picture-1,
+    .picture-2,
+    .picture-3,
+    .picture-3-1,
+    .picture-4 {
+        opacity: 0.3;
+        bottom: auto;
+    }
+
+    .zakazciki_box .i-1 {
+        width: 283px;
+    }
+
+    .zakazciki_box .i-2 {
+        width: 209px;
+    }
+
+    .zakazciki_box .i-3 {
+        width: 101px;
+    }
+
+    .zakazciki_box .i-4 {
+        width: 96px;
+    }
+
+    .zakazciki_box .i-5 {
+        width: 243px;
+    }
+
+    .menu-bar {
+        display: flex;
+    }
+
+    .menu_box {
+        display: none;
+    }
+
+    .number_upper {
+        font-size: 35px;
+        position: absolute;
+        right: auto;
+        top: 80px;
+    }
+
+    .logo {
+        top: 150px;
+        height: 200px;
+    }
+
+    .picture-1 img,
+    .picture-2 img,
+    .picture-3 img,
+    .picture-3-1 img,
+    .picture-4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .block-text-1 {
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .trajan-1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .trajan-1-gold {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .montserrat-1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .montserrat-2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .block-text-2 {
+        right: auto;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .block-text-3 {
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .block-text-3-1 {
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .block-text-4 {
+        right: auto;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .emblem {
+        display: none;
+    }
+
+    .block-text-5 {
+        display: block;
+        position: relative;
+        max-width: 1020px;
+        height: 410px;
+        top: 100px;
+        left: 0px;
+        margin-left: 10px;
+    }
+
+    .adaptiv {
+        margin-right: 30px;
+    }
+
+    .text_box p {
+        font-size: 30px;
+        font-family: "Trajan-Pro-3-Regular";
+        color: rgb(255, 255, 255);
+    }
+
+    .footer_box {
+        margin-top: 100px;
+    }
+
+    .footer_box p {
+        font-size: 20px;
+    }
+
+    #menu-2 {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    .block {
+        height: 850px;
+    }
+
+    .picture-1,
+    .picture-2,
+    .picture-3,
+    .picture-3-1,
+    .picture-4 {
+        opacity: 0.3;
+    }
+
+    .menu-bar {
+        display: flex;
+    }
+
+    .menu_box {
+        display: none;
+    }
+
+    .number_upper {
+        font-size: 35px;
+        position: absolute;
+        right: auto;
+        top: 80px;
+    }
+
+    .logo {
+        top: 150px;
+    }
+
+    .picture-1 img,
+    .picture-2 img,
+    .picture-3 img,
+    .picture-3-1 img,
+    .picture-4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .block-text-1 {
+        display: block;
+        position: absolute;
+        left: 10px;
+        bottom: 134px;
+    }
+
+    .trajan-1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .trajan-1-gold {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .montserrat-1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .montserrat-2 {
+        font-size: 23px;
+        margin-bottom: 5px;
+    }
+
+    .block-text-2 {
+        right: auto;
+        left: 10px;
+        bottom: 434px;
+    }
+
+    .block-text-3 {
+        left: 10px;
+        bottom: 400px;
+    }
+
+    .block-text-3-1 {
+        left: 10px;
+        bottom: 400px;
+    }
+
+    .block-text-4 {
+        right: auto;
+        left: 10px;
+        bottom: 400px;
+    }
+
+    .emblem {
+        display: none;
+    }
+
+    .block-text-5 {
+        display: block;
+        position: relative;
+        max-width: 1020px;
+        height: 410px;
+        top: 100px;
+        left: 0px;
+        margin-left: 10px;
+    }
+
+    .adaptiv {
+        margin-right: 30px;
+    }
+
+    #menu-2 {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1039px) {
+
+    .block {
+        height: 890px;
+    }
+
+    .picture-1,
+    .picture-2,
+    .picture-3,
+    .picture-3-1,
+    .picture-4 {
+        opacity: 0.3;
+    }
+
+    .menu p {
+        font-size: 17px;
+    }
+
+    .menu-bar {
+        display: flex;
+    }
+
+    .menu-2 {
+        display: block;
+    }
+
+    .menu_box {
+        display: none;
+    }
+
+    .number_upper {
+        font-size: 35px;
+        position: absolute;
+        right: auto;
+        top: 80px;
+    }
+
+    .logo {
+        top: 150px;
+    }
+
+    .picture-1 img,
+    .picture-2 img,
+    .picture-3 img,
+    .picture-3-1 img,
+    .picture-4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .block-text-1 {
+        display: block;
+        position: absolute;
+        left: 10px;
+        bottom: 134px;
+    }
+
+    .trajan-1 {
+        font-size: 65px;
+        margin-bottom: 15px;
+    }
+
+    .trajan-1-gold {
+        font-size: 65px;
+        margin-bottom: 15px;
+    }
+
+    .montserrat-1 {
+        font-size: 49px;
+        margin-bottom: 15px;
+    }
+
+    .montserrat-2 {
+        font-size: 27px;
+        margin-bottom: 5px;
+    }
+
+    .block-text-2 {
+        right: auto;
+        left: 10px;
+        bottom: 434px;
+    }
+
+    .block-text-3 {
+        left: 10px;
+        bottom: 400px;
+    }
+
+    .block-text-3-1 {
+        left: 10px;
+        bottom: 400px;
+    }
+
+    .block-text-4 {
+        right: auto;
+        left: 10px;
+        bottom: 400px;
+    }
+
+    .emblem {
+        display: none;
+    }
+
+    .block-text-5 {
+        display: block;
+        position: relative;
+        max-width: 1020px;
+        height: 410px;
+        top: 100px;
+        left: 0px;
+        margin-left: 10px;
+    }
+
+    .adaptiv {
+        margin-right: 30px;
+    }
+
+    #menu-2 {
+        display: block;
+    }
+
+}
+
+/*тут переход на планшетную версию*/
+
+@media only screen and (min-width: 1040px) and (max-width: 1280px) {
+
+    .picture-1,
+    .picture-2,
+    .picture-3,
+    .picture-3-1,
+    .picture-4 {
+        opacity: 0.3;
+    }
+
+    .menu p {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+
+    .picture-1,
+    .picture-2,
+    .picture-3,
+    .picture-3-1,
+    .picture-4 {
+        opacity: 0.3;
+    }
+
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1700px) {
+
+    .picture-1,
+    .picture-2,
+    .picture-3,
+    .picture-3-1,
+    .picture-4 {
+        opacity: 0.7;
+    }
+
+}
